@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="row g-3">
+
+        <h3 class="text-center">Sign up</h3>
+         <div class="col-lg-6 col-md-6 col-sm-6">
+          <input type="text" class="form-control" id="inputName4" 
+          placeholder="First name" required/>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <input type="text" class="form-control" id="inputName" 
+          placeholder="Last name" required/>
+        </div>
+
+
+        <div class="col-lg-12 col-sm-6 col-md-12">
+          <input type="email" class="form-control" id="inputEmail4"  
+          placeholder="Enter your mail..." required/>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <input type="password" class="form-control" id="inputPassword" placeholder="Password..." required/>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <input type="password" class="form-control no-outline" id="inputPassword4" placeholder="Confirm password" required/>
+        </div>
+
+        <div class="col-12">
+          <input
+            type="number"
+            class="form-control"
+            id="inputNumber"
+            placeholder="Enter phone number..." required
+          />
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="hbtn hb-fill-middle2">Sign in</button>
+        </div>
+      </form>
+      <div class="footer"><p>Already have an account? <a href="#">Log in</a></p></div>
+    </div>
+  </body>
+</html>
