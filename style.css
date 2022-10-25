@@ -32,6 +32,17 @@ body {
   font-weight: 500;
   font-size: 35px;
   color: gray;
+  position: relative;
+}
+
+.container h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5%;
+  left: 30%;
+  height: 3px;
+  width: 100px;
+  background-image: linear-gradient(to right, #b0b171, #665bc9);
 }
 
 .container::after {
@@ -48,6 +59,19 @@ body {
   background-color: rgba(255, 255, 255, 0.4);
   border: none;
   border-radius: 30px;
+}
+
+.check-input {
+  width: 10px;
+  height: 10px;
+}
+
+.form-check-label {
+  margin-left: 7px;
+}
+
+.form-check {
+  padding: 5px 5px;
 }
 
 ::placeholder {
@@ -177,7 +201,7 @@ body {
   .container {
     overflow: hidden;
     height: 90%;
-    width: 85%;
+    width: 90%;
   }
 
 }
